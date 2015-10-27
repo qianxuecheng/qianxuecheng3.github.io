@@ -2,7 +2,7 @@
 layout: blog
 index: true
 ---
-
+<!--Posts available for that page.-->
 {% for post in paginator.posts %}
 <div class="posts">
   <section class="post">
@@ -24,7 +24,9 @@ index: true
 </div>
 {% endfor %}
 <div class="pagination">
+  <!--The number of the previous page.-->
   {% if paginator.previous_page %}
+  <!--The number of the current page.-->
   {% if paginator.page == 2 %}
   <a class="pagination-item newer" href="/"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;上一页</a>
   {% else %}

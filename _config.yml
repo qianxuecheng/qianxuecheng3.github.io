@@ -12,16 +12,18 @@ paginate_path: page/:num
 
 #SyntaxHihglighter config start
 
-SyntaxHihglighter: false
+SyntaxHihglighter: true
 shTheme: shThemeDefault # shThemeDefault  shThemeDjango  shThemeEclipse  shThemeEmacs  shThemeFadeToGrey  shThemeMidnight  shThemeRDark
 
 #SyntaxHihglighter config end
+
+
 
 blog:
     name: JavaQian                                          # 博客名称
     description: Hallo World                   # 博客描述
     title: JavaQian                                         # 网页标题
-    url: http://comtu.github.io/                         # 博客地址
+    url: http://qianxuecheng.github.io/                         # 博客地址
     duoshuo: qianxuecheng1                                       # 多说ID 
     tongji: e0d9a75a7e53b54cd1e6649facd5906e             # 百度统计ID
     clickiTongJi: 51831					 # Clicki统计ID
@@ -35,3 +37,15 @@ author:
     douban:
         name:                                            # 豆瓣地址名称
         key:                                             # 豆瓣API Key
+
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: /images/avatar.jpg
+
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+disqus: qianxuechenggithubio
+
+
+
+
+
